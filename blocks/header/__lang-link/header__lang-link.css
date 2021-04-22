@@ -1,0 +1,7 @@
+/*.header__lang-link {*/
+/*  justify-self: end;*/
+/*}*/
+
+.header__lang-link:nth-of-type(1) {
+  justify-self: end;
+}
