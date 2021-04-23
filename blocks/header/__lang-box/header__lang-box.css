@@ -1,0 +1,5 @@
+.header__lang-box {
+  display: grid;
+  gap: 1.125em;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,3 +1,4 @@
 .places {
-  margin-bottom: 5.75em;
+  display: grid;
+  grid-row-gap: 5em;
 }

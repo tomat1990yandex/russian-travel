@@ -3,4 +3,5 @@
   min-width: 288px;
   display: grid;
   grid-auto-flow: column;
+  justify-content: space-between;
 }

@@ -1,3 +1,4 @@
 .cover {
+  display: grid;
   margin-bottom: 5.75em;
 }

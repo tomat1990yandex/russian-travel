@@ -6,5 +6,6 @@
   grid-template-areas:
     "title link"
     "image paragraph_up"
-    "image paragraph_down"
+    "image paragraph_down";
+  grid-column-gap: 2em;
 }

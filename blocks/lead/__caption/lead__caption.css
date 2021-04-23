@@ -5,5 +5,5 @@
   line-height: 0.875em;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-bottom: 5.75rem;
+  justify-self: flex-start;
 }
