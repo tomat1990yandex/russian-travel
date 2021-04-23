@@ -1,4 +1,22 @@
 .main {
   display: grid;
   grid-area: main;
+  max-width: 1184px;
+}
+@media screen and (max-width: 1024px){
+  .main {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .main {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .main {
+    max-width: 288px;
+  }
 }

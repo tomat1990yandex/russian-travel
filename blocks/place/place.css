@@ -1,11 +1,28 @@
 .place {
-  max-width: 984px;
+  max-width: 460px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   grid-template-areas:
     "title link"
     "image paragraph_up"
     "image paragraph_down";
   grid-column-gap: 2em;
+}
+@media screen and (max-width: 1024px){
+  .place {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place {
+    max-width: 288px;
+  }
 }

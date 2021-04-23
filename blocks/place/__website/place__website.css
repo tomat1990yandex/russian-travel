@@ -1,4 +1,17 @@
 .place__website {
   align-self: end;
   margin-bottom: 3rem;
+  max-width: 456px;
+}
+
+@media screen and (max-width: 768px){
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place__website {
+    max-width: 288px;
+  }
 }

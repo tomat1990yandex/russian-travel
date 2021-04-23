@@ -5,4 +5,23 @@
   font-size: 4.5em;
   line-height: 4.75rem;
   margin-bottom: 3rem;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 1024px){
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place__title {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place__title {
+    max-width: 288px;
+  }
 }

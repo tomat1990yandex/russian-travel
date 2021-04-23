@@ -2,4 +2,23 @@
   display: grid;
   grid-row-gap: 5em;
   padding: 0 3em;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px){
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .places {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .places {
+    max-width: 320px;
+  }
 }
