@@ -4,5 +4,6 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 2em;
+  max-width: 1184px;
 }
 

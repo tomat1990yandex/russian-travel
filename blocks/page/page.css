@@ -1,6 +1,6 @@
 .page {
   min-width: 320px;
-  max-width: 1280px;
+  /*max-width: 1280px;*/
   min-height: 100vh;
   font-family: Inter, serif;
   background-color: #2A2C2F;
@@ -10,5 +10,7 @@
     "header"
     "main"
     "footer";
-   text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  justify-content: center;
 }
+
