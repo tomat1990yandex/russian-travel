@@ -1,3 +1,7 @@
 .place__website_link {
   grid-area: link;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125em;
+  line-height: 1.375em;
 }
