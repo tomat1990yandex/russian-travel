@@ -1,5 +1,7 @@
 .lead {
   display: grid;
   justify-items: center;
-  margin-bottom: 5.75rem
+  margin-bottom: 5.75rem;
+  padding: 0 3em;
+  max-width: 984px;
 }

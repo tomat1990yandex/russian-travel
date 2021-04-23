@@ -4,4 +4,5 @@
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
+  padding: 1.75em 3em 0;
 }

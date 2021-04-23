@@ -1,9 +1,4 @@
 .place__image {
   grid-area: image;
   max-width: 100%;
-  margin-bottom: 5em;
-}
-
-.place__image:last-of-type{
-  margin-bottom: 5.75em;
 }

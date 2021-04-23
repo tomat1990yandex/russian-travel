@@ -3,7 +3,7 @@
   font-weight: normal;
   font-size: 0.625em;
   line-height: 0.875em;
-  letter-spacing: 0.15em;
   text-transform: uppercase;
   justify-self: flex-start;
+  margin: 0;
 }

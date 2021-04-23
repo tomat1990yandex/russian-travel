@@ -1,4 +1,8 @@
 .cover {
   display: grid;
-  margin-bottom: 5.75em;
+  margin: 3.75em auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2em;
 }
+
