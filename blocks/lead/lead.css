@@ -1,8 +1,7 @@
 .lead {
   display: grid;
-  justify-items: center;
+  justify-self: center;
   margin-bottom: 5.75rem;
-  padding: 0 3em;
   max-width: 984px;
 }
 
@@ -21,5 +20,6 @@
 @media screen and (max-width: 320px){
   .lead {
     max-width: 320px;
+    padding: 0;
   }
 }
