@@ -3,3 +3,10 @@
   grid-auto-flow: column;
   grid-column-gap: 1.125em;
 }
+
+@media screen and (max-width: 320px){
+  .footer__links {
+    grid-auto-flow: row;
+  }
+}
+

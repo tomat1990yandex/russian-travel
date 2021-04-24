@@ -3,8 +3,8 @@
   text-align: center;
   font-style: normal;
   font-weight: bold;
-  font-size: 6em;
-  line-height: 6.25rem;
+  font-size: 96px;
+  line-height: 100px;
   margin: 3rem auto 2rem;
 }
 @media screen and (max-width: 1024px){
@@ -22,5 +22,7 @@
 @media screen and (max-width: 320px){
   .lead__title {
     max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
   }
 }

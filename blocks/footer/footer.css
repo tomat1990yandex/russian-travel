@@ -6,4 +6,24 @@
   grid-auto-flow: column;
   justify-content: space-between;
   max-width: 1184px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px){
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer {
+    max-width: 186px;
+    grid-auto-flow: row;
+  }
 }
