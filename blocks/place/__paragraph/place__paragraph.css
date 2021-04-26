@@ -5,7 +5,13 @@
   line-height: 29px;
   margin: 0 0 1.625rem;
   max-width: 484px;
+  grid-area: paragraph_up;
 }
+
+.place__paragraph:nth-of-type(2n) {
+  grid-area: paragraph_down;
+}
+
 
 @media screen and (max-width: 1024px){
   .place__paragraph {

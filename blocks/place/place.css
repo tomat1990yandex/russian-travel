@@ -1,7 +1,6 @@
 .place {
   max-width: 984px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 1fr);
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   grid-template-areas:
     "title link"
@@ -28,5 +27,7 @@
     "title"
     "link"
     "image"
+    "paragraph_up"
+    "paragraph_down"
     }
 }

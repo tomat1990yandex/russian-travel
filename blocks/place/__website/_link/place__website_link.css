@@ -8,6 +8,11 @@
   color: #FFFFFF;
 }
 
+.place__website_link:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
 @media screen and (max-width: 1024px){
   .place__website_link {
     max-width: 456px;

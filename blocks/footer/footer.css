@@ -6,7 +6,6 @@
   grid-auto-flow: column;
   justify-content: space-between;
   max-width: 1184px;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px){
