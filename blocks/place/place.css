@@ -8,20 +8,21 @@
     "image paragraph_down";
   grid-column-gap: 2em;
 }
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
     grid-column-gap: 1.75em;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
     grid-template-areas:
@@ -29,6 +30,6 @@
     "link"
     "image"
     "paragraph_up"
-    "paragraph_down"
-    }
+    "paragraph_down";
+  }
 }

@@ -7,19 +7,20 @@
   line-height: 100px;
   margin: 3.5rem auto 2rem;
 }
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
   .lead__title {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .lead__title {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
