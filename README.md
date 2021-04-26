@@ -16,6 +16,6 @@
 * оптимизация кода для увеличения производительности
 * перевод на английский язык
 
-[Ссылка на проект](https://tomat1990.github.io/russian-travel/index.html)
+[Ссылка на проект](https://tomat1990yandex.github.io/russian-travel/index.html)
 
 ---
