@@ -32,10 +32,15 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .cover {
+max-width: 1184px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .cover {
     min-height: 640px;
-    max-width: 100%;
     margin: 5.75rem 0;
   }
 }
@@ -43,7 +48,6 @@
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 480px;
-    max-width: 100%;
     margin: 5.625rem 0 5.5rem;
   }
 }
@@ -53,7 +57,5 @@
     min-height: 200px;
     margin: 4.125em 0 4em;
     gap: 1em;
-    width: 100%;
-    max-width: 100%;
   }
 }
