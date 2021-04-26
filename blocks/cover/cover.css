@@ -3,10 +3,11 @@
   margin: 5.75rem auto;
   grid-template-rows: repeat(2, 1fr);
   gap: 2em;
-  max-width: 1184px;
+  max-width: 100%;
   background-image: url("../../images/cover-trains.jpg");
   z-index: 1;
-  width: calc(100% + 96px);
+  /*width: calc(100% + 96px);*/
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

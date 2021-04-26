@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer {
     max-width: 200px;
     grid-auto-flow: row;

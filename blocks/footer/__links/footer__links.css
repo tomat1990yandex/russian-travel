@@ -4,7 +4,7 @@
   grid-column-gap: 1.125em;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__links {
     grid-auto-flow: row;
     margin: 0 0 3rem;
