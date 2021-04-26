@@ -1,11 +1,10 @@
 .header {
-  grid-area: header;
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
   padding: 1.75em 0 0;
   max-width: 1184px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px){
