@@ -1,18 +1,17 @@
 .cover {
   display: grid;
   margin: 5.75rem auto;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 2em;
   max-width: 100%;
   background-image: url("../../images/cover-trains.jpg");
   z-index: 1;
-  /*width: calc(100% + 96px);*/
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 740px;
   position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover::before {
@@ -34,7 +33,7 @@
 
 @media screen and (min-width: 1024px) {
   .cover {
-max-width: 1184px;
+    max-width: 1184px;
   }
 }
 
@@ -56,6 +55,5 @@ max-width: 1184px;
   .cover {
     min-height: 200px;
     margin: 4.125em 0 4em;
-    gap: 1em;
   }
 }
