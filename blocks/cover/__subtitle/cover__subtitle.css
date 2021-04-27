@@ -5,7 +5,7 @@
   line-height: 22px;
   z-index: 1;
   max-width: 360px;
-  margin: 2em auto 0;
+  margin: 2em 0 0;
 }
 
 @media screen and (max-width: 320px) {
@@ -14,6 +14,6 @@
     font-size: 14px;
     line-height: 16px;
     padding: 0 1rem;
-    margin: 1em auto 0;
+    margin: 1em 0 0;
   }
 }
